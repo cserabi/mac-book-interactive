@@ -1,0 +1,48 @@
+hr
+{
+  height: 3px !important;
+  color:black;
+}
+
+.mac
+{
+  width: 80%;
+  height: auto;
+}
+.button
+{
+  background-color: white;
+  color:black;
+  margin:5px;
+  border-radius: 10px;
+  width:33%;
+  border:2px solid black;
+  text-decoration: none;
+  
+  
+
+}
+.button:hover
+{
+  background-color: black;
+  color:white;
+  
+
+}
+
+/* apply button  */
+#apply-btn
+{
+  background-color: rgb(255, 0, 55);
+  color:white;
+  padding: 5px 10px 5px 10px;
+  cursor:pointer;
+}
+
+
+/* pomo code color */
+
+#wrong-pomo-code
+{
+  color:red;
+}
