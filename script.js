@@ -168,6 +168,9 @@ function pomoApply() {
     const totalPriceLetest = parseFloat(previousBalanceUpdate * 0.8);
 
     totalPriceEnd.innerText = totalPriceLetest;
+    const errorPomoCode = document.getElementById('wrong-pomo-code');
+
+    errorPomoCode.innerText = '';
 
 
 
@@ -191,6 +194,7 @@ function pomoApply() {
 
 
     finalPrice.innerText = mainBalanceUpdate;
+
 
 
 
