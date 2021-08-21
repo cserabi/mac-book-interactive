@@ -170,9 +170,11 @@ function pomoApply() {
     totalPriceEnd.innerText = totalPriceLetest;
     const errorPomoCode = document.getElementById('wrong-pomo-code');
 
-    errorPomoCode.innerText = '';
+    errorPomoCode.innerText = 'Congratulation , your pomo code is valid !!';
 
-
+    document.getElementById('wrong-pomo-code').style.color = 'green';
+    document.getElementById('wrong-pomo-code').style.fontSize = 'large';
+    document.getElementById('wrong-pomo-code').style.fontWeight = 'bold';
 
   }
 
